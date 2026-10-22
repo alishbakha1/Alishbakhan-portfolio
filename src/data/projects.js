@@ -1,0 +1,122 @@
+// Project data. Only verified information belongs here.
+// links: { label, href, kind: "live" | "code" }. Never add a link that has not been confirmed.
+// status: shown as plain text (not a link) when a project has no live demo yet.
+// image: local project screenshot or a clearly identified representative image.
+
+export const projects = [
+  {
+    id: "marketlink",
+    title: "MarketLink",
+    category: "MERN Stack Farmer Marketplace",
+    description:
+      "A marketplace connecting farmers and customers through product listings and a digital shopping experience, with seller and admin functionality.",
+    tech: ["MongoDB", "Express.js", "React", "Node.js", "Cloudinary"],
+    links: [],
+    status: "Live demo coming soon",
+    image: "/images/projects/marketlink-fresh-produce.webp",
+    imageAlt: "Representative fresh produce display for the MarketLink farmer marketplace.",
+    featured: true,
+  },
+  {
+    id: "biteflow",
+    title: "BiteFlow",
+    category: "MERN Stack Food Ordering Platform",
+    description:
+      "A food-ordering application designed to make restaurant discovery, menu browsing, cart management, and order placement straightforward.",
+    tech: ["MongoDB", "Express.js", "React", "Node.js"],
+    links: [],
+    status: "Live demo coming soon",
+    image: "/images/projects/biteflow-food-ordering.jpg",
+    imageAlt: "BiteFlow food ordering homepage with restaurant search, delivery controls, and food photography.",
+    featured: true,
+  },
+  {
+    id: "lumora",
+    title: "Lumora",
+    category: "Web Development Project",
+    description: "A web development project showcasing frontend implementation and modern interface design.",
+    tech: [],
+    links: [{ label: "GitHub", href: "https://github.com/alishbakha1/lumora", kind: "code" }],
+    image: "/images/projects/lumora-creative-studio.jpg",
+    imageAlt: "Screenshot of the Lumora creative digital studio landing page.",
+  },
+  {
+    id: "mini-store",
+    title: "Mini E-Commerce Store",
+    category: "Full-Stack E-Commerce",
+    description:
+      "An e-commerce project built as a separate frontend and backend, exploring online store functionality and the integration between the user interface and server-side logic.",
+    tech: ["React", "Node.js", "Express.js", "MongoDB"],
+    links: [
+      { label: "Frontend code", href: "https://github.com/alishbakha1/ecommerce-ministore-frontend", kind: "code" },
+      { label: "Backend code", href: "https://github.com/alishbakha1/mini-ecommerce-backend", kind: "code" },
+    ],
+    image: "/images/projects/mini-ecommerce-store.jpg",
+    imageAlt: "Actual Mini Store homepage with shopping navigation, cart, fashion collection, and shopping call to action.",
+  },
+  {
+    id: "travel",
+    title: "Travel Agency Website",
+    category: "Frontend Development",
+    description:
+      "A travel-themed website presenting destinations and travel-related information through a responsive interface.",
+    tech: ["HTML", "CSS"],
+    links: [{ label: "Live demo", href: "http://alishbakha1.github.io/travel-agency-static-website/", kind: "live" }],
+    image: "/images/projects/travel-agency-website.jpg",
+    imageAlt: "Screenshot of the Travel Agency website with destination details and a scenic lake.",
+  },
+  {
+    id: "coffee",
+    title: "My Coffee — Brew Heaven",
+    category: "Website Design & Development",
+    description: "A coffee-themed website showcasing a café-inspired visual experience and content.",
+    tech: ["HTML", "CSS"],
+    links: [{ label: "Live demo", href: "https://alishbakha1.github.io/mycoffee/", kind: "live" }],
+    image: "/images/projects/my-coffee-brew-heaven.jpg",
+    imageAlt: "Screenshot of My Coffee — Brew Heaven with café navigation, coffee imagery, and an order button.",
+  },
+  {
+    id: "aquarium",
+    title: "Aquarium Website",
+    category: "Frontend Development",
+    description: "An aquarium-themed website featuring a visual aquatic experience and informational content.",
+    tech: ["HTML", "CSS"],
+    links: [{ label: "Live demo", href: "https://alishbakha1.github.io/E-project-Aquarium/", kind: "live" }],
+    image: "/images/projects/aquarium-website.jpg",
+    imageAlt: "Screenshot of the Nexus Aquarium site featuring a jellyfish tank and visitor navigation.",
+  },
+  {
+    id: "lamexa",
+    title: "LAMEXA",
+    category: "React Chatbot",
+    description: "A React-based chatbot project focused on conversational interaction.",
+    tech: ["React"],
+    links: [],
+    status: "No public link yet",
+    image: "/images/projects/lamexa-chat-support.webp",
+    imageAlt: "Representative image of people using a laptop for a chat-support project; not an actual LAMEXA screenshot.",
+  },
+  {
+    id: "fees-voucher",
+    title: "Fees Voucher Management System",
+    category: "ASP.NET Core MVC",
+    description: "An academic fee-management project built to organize fee voucher-related information.",
+    tech: ["ASP.NET Core MVC", "C#"],
+    links: [],
+    status: "No public link yet",
+    image: "/images/projects/fees-voucher-dashboard.webp",
+    imageAlt: "Representative laptop dashboard image for fee management; not an actual Fees Voucher System screenshot.",
+  },
+  {
+    id: "php-crud",
+    title: "PHP CRUD Application",
+    category: "PHP / Database",
+    description:
+      "A CRUD application demonstrating create, read, update, and delete operations for managing application data.",
+    tech: ["PHP"],
+    links: [],
+    status: "No public link yet",
+    image: "/images/projects/php-crud-application.jpg",
+    imageAlt: "Sanitized PHP CRUD application table with sample records and update and delete controls.",
+  },
+];
